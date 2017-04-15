@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Cipher Tools</string>
+    <string name="hint1">Enter your message</string>
+    <string name="hint2">Enter your key(0 － 25)</string>
+    <string name="encrypt">encrypt</string>
+    <string name="result"></string>
+    <string name="decrypt">decrypt</string>
+    <string name="send">send</string>
+    <string name="select">Select a Tool</string>
+    <string name="caesar">Caesar Cipher</string>
+    <string name="vigenere">Vigenère Cipher</string>
+    <string name="clear">Clear</string>
+    <string name="aboutCipher">About Cipher</string>
+    <string name="tab1">Encrypt Text</string>
+    <string name="tab2">Decrypt Text</string>
+    <string name="tab3">Encrypt File</string>
+    <string name="tab4">Decrypt File</string>
+    <string name="chooser_title_encrypt_text">Send encrypted message via</string>
+    <string name="chooser_title_decrypt_text">Send decrypted message via</string>
+    <string name="encrypt_text_copy_toast">Encrypted message copied</string>
+    <string name="decrypt_text_copy_toast">Decrypted message copied</string>
+    <string name="encrypt_file_save_toast">Encrypted message saved</string>
+    <string name="decrypt_file_save_toast">Decrypted message saved</string>
+    <string name="paste_message">Message pasted</string>
+    <string name="paste_error">No available location to paste</string>
+    <string name="load">load</string>
+    <string name="save">save</string>
+    <string name="file_hint_encrypt">Load a text file to encrypt</string>
+    <string name="file_hint_decrypt">Load a text file to decrypt</string>
+    <string name="ok">OK</string>
+    <string name="vhintkey">Enter your keyword</string>
+    <string name="content_caesar">In cryptography, a Caesar cipher, also known as the shift cipher or Caesar shift, is one of the simplest and most widely known encryption techniques. It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. The method is named after Julius Caesar, who used it in his private correspondence.
+
+The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system. As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communication security.
+    (excerption from wikipedia)</string>
+    <string name="content_vigenere">The Vigenère cipher is a method of encrypting alphabetic text by using a series of different Caesar ciphers based on the letters of a keyword. It is a simple form of polyalphabetic substitution.
+
+The Vigenère cipher has been reinvented many times. The method was originally described by Giovan Battista Bellaso in his 1553 book La cifra del. Sig. Giovan Battista Bellaso; however, the scheme was later misattributed to Blaise de Vigenère in the 19th century, and is now widely known as the "Vigenère cipher".
+
+Though the cipher is easy to understand and implement, for three centuries it resisted all attempts to break it; this earned it the description le chiffre indéchiffrable (French for "the indecipherable cipher"). Many people have tried to implement encryption schemes that are essentially Vigenère ciphers. Friedrich Kasiski was the first to publish a general method of deciphering a Vigenère cipher.
+
+In a Caesar cipher, each letter of the alphabet is shifted along some number of places; for example, in a Caesar cipher of shift 3, A would become D, B would become E, Y would become B and so on. The Vigenère cipher consists of several Caesar ciphers in sequence with different shift values.
+
+To encrypt, a table of alphabets can be used, termed a tabula recta, Vigenère square, or Vigenère table. It consists of the alphabet written out 26 times in different rows, each alphabet shifted cyclically to the left compared to the previous alphabet, corresponding to the 26 possible Caesar ciphers. At different points in the encryption process, the cipher uses a different alphabet from one of the rows. The alphabet used at each point depends on a repeating keyword.
+    (excerption form wikipedia)</string>
+    <string-array name="ckeys">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </string-array>
+</resources>

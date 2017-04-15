@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ckey_spinner_encrypt_text" type="id"/>
+    <item name="ckey_spinner_decrypt_text" type="id"/>
+    <item name="ckey_spinner_encrypt_file" type="id"/>
+    <item name="ckey_spinner_decrypt_file" type="id"/>
+    <item name="rkey_spinner" type="id"/>
+</resources>

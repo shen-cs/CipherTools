@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:title="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/AppTheme" />
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingTop="100dp"
+        >
+
+        <TextView
+            android:id="@+id/start_screen_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="sans-serif-light"
+            android:text="@string/select"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/caesar_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="switchScreenCaesar"
+            android:text="@string/caesar"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:fontFamily="sans-serif-light"
+            android:onClick="switchScreenVigenere"
+            android:text="@string/vigenere"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</RelativeLayout>
